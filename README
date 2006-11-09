@@ -4,13 +4,13 @@ This module contains the base MIME and Application database for GNOME.
 It is meant to be accessed through the MIME functions in GnomeVFS.
 
 Build requirements:
-  autoconf2.5-2.59-1
-  automake1.9-1.9.5-2
-  gawk-3.1.5-1
-  gettext-0.14.1-1
-  intltool-0.33-1
-  make-3.80-1
-  sed-4.1.4-1
+  autoconf2.5-2.60-1
+  automake1.9-1.9.6-1
+  gawk-3.1.5-2
+  gettext-0.15-1
+  intltool-0.35.0-1
+  make-3.81-1
+  sed-4.1.5-1
 
 Canonical download:
   http://ftp.gnome.org/pub/GNOME/sources/gnome-mime-data/
@@ -18,15 +18,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-mime-data-2.4.2-1-src.tar.bz2
+  unpack gnome-mime-data-2.4.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./gnome-mime-data-2.4.2-1.sh all
+  cygport ./gnome-mime-data-2.4.3-X.cygport all
 
 This will create:
-  /usr/src/gnome-mime-data-2.4.2-1-src.tar.bz2
-  /usr/src/gnome-mime-data-2.4.2-1.tar.bz2
+  /usr/src/gnome-mime-data-2.4.3-X-src.tar.bz2
+  /usr/src/gnome-mime-data-2.4.3-X.tar.bz2
 
 -------------------------------------------
 
@@ -35,13 +35,12 @@ Files included in the binary package:
   /etc/gnome-vfs-mime-magic
   /usr/lib/pkgconfig/gnome-mime-data-2.0.pc
   /usr/share/application-registry/gnome-vfs.applications
-  /usr/share/doc/Cygwin/gnome-mime-data-2.4.2.README
-  /usr/share/doc/gnome-mime-data-2.4.2/AUTHORS
-  /usr/share/doc/gnome-mime-data-2.4.2/ChangeLog
-  /usr/share/doc/gnome-mime-data-2.4.2/COPYING
-  /usr/share/doc/gnome-mime-data-2.4.2/INSTALL
-  /usr/share/doc/gnome-mime-data-2.4.2/NEWS
-  /usr/share/doc/gnome-mime-data-2.4.2/README
+  /usr/share/doc/Cygwin/gnome-mime-data-2.4.3.README
+  /usr/share/doc/gnome-mime-data-2.4.3/AUTHORS
+  /usr/share/doc/gnome-mime-data-2.4.3/COPYING
+  /usr/share/doc/gnome-mime-data-2.4.3/ChangeLog
+  /usr/share/doc/gnome-mime-data-2.4.3/INSTALL
+  /usr/share/doc/gnome-mime-data-2.4.3/README
   /usr/share/locale/af/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/am/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/ar/LC_MESSAGES/gnome-mime-data.mo
@@ -88,19 +87,20 @@ Files included in the binary package:
   /usr/share/locale/ne/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/nl/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/nn/LC_MESSAGES/gnome-mime-data.mo
-  /usr/share/locale/no/LC_MESSAGES/gnome-mime-data.mo
+  /usr/share/locale/nso/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/pa/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/pl/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/pt/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/ro/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/ru/LC_MESSAGES/gnome-mime-data.mo
+  /usr/share/locale/rw/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/sk/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/sl/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/sq/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/sr/LC_MESSAGES/gnome-mime-data.mo
-  /usr/share/locale/sr@ije/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/sr@Latn/LC_MESSAGES/gnome-mime-data.mo
+  /usr/share/locale/sr@ije/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/sv/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/ta/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/th/LC_MESSAGES/gnome-mime-data.mo
@@ -109,15 +109,20 @@ Files included in the binary package:
   /usr/share/locale/uk/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/vi/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/wa/LC_MESSAGES/gnome-mime-data.mo
+  /usr/share/locale/xh/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/yi/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/gnome-mime-data.mo
+  /usr/share/locale/zu/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/mime-info/gnome-vfs.keys
   /usr/share/mime-info/gnome-vfs.mime
 
 ------------------
 
 Port Notes:
+
+----- version 2.4.3-1 -----
+Version bump.
 
 ----- version 2.4.2-1 -----
 Upstream version bump.
@@ -126,4 +131,5 @@ Upstream version bump.
 Initial release for Cygwin.
 
 
-Cygwin port maintained by:  http://cygwin-ports.sourceforge.net/
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
