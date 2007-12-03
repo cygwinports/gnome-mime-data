@@ -4,11 +4,11 @@ This module contains the base MIME and Application database for GNOME.
 It is meant to be accessed through the MIME functions in GnomeVFS.
 
 Build requirements:
-  autoconf2.5-2.60-1
-  automake1.9-1.9.6-1
-  gawk-3.1.5-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  gawk-3.1.5-4
   gettext-0.15-1
-  intltool-0.35.0-1
+  intltool-0.36.2-1
   make-3.81-1
   sed-4.1.5-1
 
@@ -18,29 +18,28 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-mime-data-2.4.3-X-src.tar.bz2
+  unpack gnome-mime-data-2.18.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-mime-data-2.4.3-X.cygport all
+  cygport ./gnome-mime-data-2.18.0-X.cygport all
 
 This will create:
-  /usr/src/gnome-mime-data-2.4.3-X-src.tar.bz2
-  /usr/src/gnome-mime-data-2.4.3-X.tar.bz2
+  /usr/src/gnome-mime-data-2.18.0-X-src.tar.bz2
+  /usr/src/gnome-mime-data-2.18.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /etc/gnome-vfs-mime-magic
-  /usr/lib/pkgconfig/gnome-mime-data-2.0.pc
   /usr/share/application-registry/gnome-vfs.applications
-  /usr/share/doc/Cygwin/gnome-mime-data-2.4.3.README
-  /usr/share/doc/gnome-mime-data-2.4.3/AUTHORS
-  /usr/share/doc/gnome-mime-data-2.4.3/COPYING
-  /usr/share/doc/gnome-mime-data-2.4.3/ChangeLog
-  /usr/share/doc/gnome-mime-data-2.4.3/INSTALL
-  /usr/share/doc/gnome-mime-data-2.4.3/README
+  /usr/share/doc/Cygwin/gnome-mime-data-2.18.0.README
+  /usr/share/doc/gnome-mime-data-2.18.0/AUTHORS
+  /usr/share/doc/gnome-mime-data-2.18.0/COPYING
+  /usr/share/doc/gnome-mime-data-2.18.0/ChangeLog
+  /usr/share/doc/gnome-mime-data-2.18.0/INSTALL
+  /usr/share/doc/gnome-mime-data-2.18.0/README
   /usr/share/locale/af/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/am/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/ar/LC_MESSAGES/gnome-mime-data.mo
@@ -116,10 +115,14 @@ Files included in the binary package:
   /usr/share/locale/zu/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/mime-info/gnome-vfs.keys
   /usr/share/mime-info/gnome-vfs.mime
+  /usr/share/pkgconfig/gnome-mime-data-2.0.pc
 
 ------------------
 
 Port Notes:
+
+----- version 2.18.0-1 -----
+Version bump for GNOME 2.18.
 
 ----- version 2.4.3-1 -----
 Version bump.
