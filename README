@@ -4,13 +4,14 @@ This module contains the base MIME and Application database for GNOME.
 It is meant to be accessed through the MIME functions in GnomeVFS.
 
 Build requirements:
-  autoconf2.5-2.61-1
-  automake1.10-1.10-1
-  gawk-3.1.5-4
-  gettext-0.15-1
-  intltool-0.36.2-1
-  make-3.81-1
-  sed-4.1.5-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gettext-devel-0.17-10
+  intltool-0.40.6-1
+  make-3.81-2
+  sed-4.1.5-2
 
 Canonical download:
   http://ftp.gnome.org/pub/GNOME/sources/gnome-mime-data/
@@ -34,12 +35,10 @@ Files included in the binary package:
 
   /etc/gnome-vfs-mime-magic
   /usr/share/application-registry/gnome-vfs.applications
-  /usr/share/doc/Cygwin/gnome-mime-data-2.18.0.README
-  /usr/share/doc/gnome-mime-data-2.18.0/AUTHORS
-  /usr/share/doc/gnome-mime-data-2.18.0/COPYING
-  /usr/share/doc/gnome-mime-data-2.18.0/ChangeLog
-  /usr/share/doc/gnome-mime-data-2.18.0/INSTALL
-  /usr/share/doc/gnome-mime-data-2.18.0/README
+  /usr/share/doc/gnome-mime-data/AUTHORS
+  /usr/share/doc/gnome-mime-data/COPYING
+  /usr/share/doc/gnome-mime-data/ChangeLog
+  /usr/share/doc/gnome-mime-data/README
   /usr/share/locale/af/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/am/LC_MESSAGES/gnome-mime-data.mo
   /usr/share/locale/ar/LC_MESSAGES/gnome-mime-data.mo
@@ -121,17 +120,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.18.0-1 -----
-Version bump for GNOME 2.18.
-
------ version 2.4.3-1 -----
-Version bump.
-
------ version 2.4.2-1 -----
-Upstream version bump.
-
------ version 2.4.1-1 -----
-Initial release for Cygwin.
+----- version 2.18.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
