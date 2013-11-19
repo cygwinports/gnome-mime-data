@@ -1,4 +1,0 @@
-category: Gnome
-sdesc: "Base set of file types and applications for GNOME 2.x"
-ldesc: "This module contains the base MIME and Application database for 
-GNOME.  It is meant to be accessed through the MIME functions in GnomeVFS."
