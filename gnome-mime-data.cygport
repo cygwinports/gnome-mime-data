@@ -7,3 +7,5 @@ CATEGORY="GNOME"
 SUMMARY="Base set of file types and applications for GnomeVFS"
 DESCRIPTION="This module contains the base MIME and Application database for
 GNOME.  It is meant to be accessed through the MIME functions in GnomeVFS."
+
+ARCH=noarch
